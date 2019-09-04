@@ -18,7 +18,7 @@ const App = () => {
   }, []);
   return (
     <div className="App">
-      {JSON.stringify(local)}
+      {/* {JSON.stringify(local)} */}
       <Navbar />
       <Charts coinData={coinData} />
     </div>
